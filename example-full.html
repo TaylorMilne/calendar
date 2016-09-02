@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jsDatePick Javascript example</title>
+<link rel="stylesheet" type="text/css" media="all" href="jsDatePick_ltr.css" />
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<!-- 
+	OR if you want to use the calendar in a right-to-left website
+	just use the other CSS file instead and don't forget to switch g_jsDatePickDirectionality variable to "rtl"!
+	
+	<link rel="stylesheet" type="text/css" media="all" href="jsDatePick_ltr.css" />
+-->
+<script type="text/javascript" src="jsDatePick.full.1.3.js"></script>
+<script type="text/javascript" src="mini_calendar.js"></script>
+<!-- 
+	After you copied those 2 lines of code , make sure you take also the files into the same folder :-)
+    Next step will be to set the appropriate statement to "start-up" the calendar on the needed HTML element.
+    
+    This example is of the direct HTML appending calendar version which can be used
+    in two ways. with a stripped mode or without.
+    
+    BUT - in both cases , it simply attaches to an HTML element and stays there.    
+    
+    When used in this way , you will have to make a javascript function that will be registered
+    as an event handler of the clicking action on each day.
+    
+    This is done easily like shown in the example.
+-->
+<script type="text/javascript">
+
+	// warning: month value= real-1
+	var availDays = [];
+	var availOne = new Date(2015, 11, 1);
+	var availTwo = new Date(2015, 11, 2);
+	var availThree= new Date(2015, 11, 3);
+	
+	availDays.push(availOne);
+	availDays.push(availTwo);
+	availDays.push(availThree);
+
+	var halfDays = [];
+	var halfOne = new Date(2015, 11, 7);
+	halfDays.push(halfOne);
+
+	var notAvailDays = [];
+	var notAvailOne = new Date(2015, 11, 11);
+	var notAvailTwo = new Date(2015, 11, 18);
+	notAvailDays.push(notAvailOne);
+	notAvailDays.push(notAvailTwo);
+
+	var selectedDays = [];
+	var selectedOne = new Date(2015, 11, 9);
+	selectedDays.push(selectedOne);
+
+
+
+	window.onload = function(){
+		
+		g_globalObject2 = new JsDatePick({
+			useMode:1,
+			isStripped:true,
+			target:"my_calendar",
+			cellColorScheme:"torqoise",
+			availDayList: availDays,  //RKR:add avialDaylist
+			halfDayList: halfDays,  //RKR:add avialDaylist
+			notAvailDayList: notAvailDays,  //RKR:add avialDaylist
+			selectedDayList: selectedDays,  //RKR:add avialDaylist
+			/*selectedDate:{				This is an example of what the full configuration offers.
+				day:5,						For full documentation about these settings please see the full version of the code.
+				month:9,
+				year:2006
+			},
+			yearsRange:[1978,2020],
+			limitToToday:false,
+			dateFormat:"%m-%d-%Y",
+			imgPath:"img/",*/
+			weekStartDay:0
+		});
+
+		g_globalObject1 = new McMonthPick({
+			target:"my_month",
+			yearsRange:[1978, 2020]
+		});
+		
+	};
+</script>
+</head>
+<body>
+	    
+    <div id="my_calendar" style="margin:10px 0 30px 0; border:dashed 1px blue; width:260px; height:240px; left:20px; right: 20px;">
+    	
+    </div>
+    
+
+    <div id="my_month" style="margin: 10px 20px 30px 20px; border: 1px solid blue; width: 260px; height: 50px;">
+
+    </div>
+</body>
+</html>

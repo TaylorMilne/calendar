@@ -1,0 +1,491 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"month",
+				"monthtitle"
+			],
+			[
+				"year",
+				"yearsRange"
+			],
+			[
+				"k",
+				"kConf"
+			],
+			[
+				"moveyear",
+				"moveyearbackward"
+			],
+			[
+				"for",
+				"formonbt"
+			],
+			[
+				"isSelect",
+				"isSelectedBefore"
+			],
+			[
+				"isSel",
+				"isSelectDay"
+			],
+			[
+				"spec",
+				"specialDay_flag"
+			],
+			[
+				"sel",
+				"selectedDayList"
+			],
+			[
+				"av",
+				"availDayList"
+			],
+			[
+				"ava",
+				"availDaylist"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"isAvai",
+				"isAvailableDay"
+			],
+			[
+				"s",
+				"size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "example-full.html",
+			"settings":
+			{
+				"buffer_size": 3300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mini_calendar.js",
+			"settings":
+			{
+				"buffer_size": 4083,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/calendar"
+	],
+	"file_history":
+	[
+		"/E/calendar/jsDatePick.full.1.3.js",
+		"/E/calendar/jsDatePick_ltr.css",
+		"/E/calendar/style.css",
+		"/E/calendar/mini_calendar.js",
+		"/E/calendar/jsDatePick.jquery.full.1.3.js",
+		"/E/calendar/example-jquery-full.html",
+		"/E/calendar/sss.html",
+		"/E/calendar/jquery.1.4.2.js",
+		"/E/download/jsdatepick-calendar/jsDatePick.min.1.3.js",
+		"/E/download/jsdatepick-calendar/jsDatePick.jquery.min.1.3.js",
+		"/E/download/jsdatepick-calendar/jsDatePick.full.1.3.js",
+		"/E/download/jsdatepick-calendar/jsDatePick.jquery.full.1.3.js",
+		"/E/download/jsdatepick-calendar/jquery.1.4.2.js",
+		"/E/download/jsdatepick-calendar/example.html",
+		"/E/download/jsdatepick-calendar/example-jquery.html",
+		"/E/download/jsdatepick-calendar/example-full.html",
+		"/E/download/jsdatepick-calendar/jsDatePick_ltr.css",
+		"/E/download/jsdatepick-calendar/example-jquery-full.html",
+		"/E/test/1.html",
+		"/E/test/jquery.js",
+		"/E/test/node.demo.js",
+		"/E/test/test.sublime-project",
+		"/E/test/test.sublime-workspace",
+		"/E/test/get_ele.js",
+		"/E/test/node.circle.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"firstchild",
+			"firstChild",
+			"controlsBarTextCell",
+			"setControlBarText",
+			"monthsTextualRepresentation",
+			"repou",
+			"setTooltipText",
+			"resizeCalendar",
+			"moveBackOneYear",
+			"setTooltipText",
+			"onmouseup",
+			"repopulateMainBox",
+			"moveBackOneYear",
+			"monthForwardButton",
+			"monthforward",
+			"monthforae",
+			"getInternetExplorerVersion",
+			"isie",
+			"target",
+			"getDOMCalendarStripped",
+			"JsgetElem",
+			"target",
+			"g_arrayOfUsedJsDatePickCals",
+			"getCalInstanceById",
+			"makeCalendar",
+			"target",
+			"oConfiguration",
+			"getCalInstanceById",
+			"getUnUsedGlobalNumber",
+			"g_arrayOfUsedJsDatePickCals",
+			"selectedDayList",
+			"isSelectDay",
+			"selectedDayList",
+			"moveForwardOneMonth",
+			"currentYear",
+			"makeCalendar",
+			"setDaySelection",
+			"isSelected",
+			"isSelece",
+			"isie",
+			"getInternetExplorerVersion",
+			"isSelectDay",
+			"selected",
+			"isSelectDay",
+			"selectedDayList",
+			"populateFieldWithSelectedDate",
+			"JsgetElem",
+			"g_arrayOfUsedJsDatePickCals",
+			"getCalInstanceById",
+			"getCallInstanceById",
+			"setDaySelection",
+			"isSelected",
+			"specialDay_flag",
+			"dayDown",
+			"daydown",
+			"down",
+			"dayDown",
+			"selec",
+			"selected",
+			"selected_day",
+			"getCall",
+			"getDomControlbar",
+			"globalnumber",
+			"getDOMControlBar",
+			"controlsBar",
+			"getDOMControlBar",
+			"isSelectedDay",
+			"selectedDayList",
+			"isAvailable",
+			"availDayList",
+			"isAvailableDay",
+			"availDayList",
+			"availDaylist",
+			"isAvailableDay",
+			"avialDaylist",
+			"isToday",
+			"isAvailableDay",
+			"setSelectedDay",
+			"selectedDayObject",
+			"isSelectedDay",
+			"disabledDayFlag",
+			"isAvailable",
+			"limitToToday",
+			"cmpMonth",
+			"start here",
+			"g_currentDateObject",
+			"oCurrentDay",
+			"aDayDiv",
+			"determineFiedl",
+			"selectedDate",
+			"oConfiguration",
+			"weekStartDay",
+			"setConfiguration",
+			"rkr",
+			"oConfiguration",
+			"yearsRange",
+			"rkr",
+			"imgPath",
+			"oCurrentDay",
+			"g_currentDateObject",
+			"oCurrentDay",
+			"selectedDate",
+			"rkr",
+			"availableDay",
+			"oConfiguration",
+			"setConfiguration",
+			"selectedDayObject",
+			"setDaySelection",
+			"selectedDayObject",
+			"isSelectedDay",
+			"isToday",
+			"oCurrentDay",
+			"boxMainCellsContainer",
+			"repopulateMainBox",
+			"dayNormal",
+			"20",
+			"JsDatePick",
+			"setOnSelectedDelegate",
+			"monthBackwardButton",
+			"moveForwardOneYear",
+			"repopulateMainBox",
+			"showCalendar",
+			"senseDivider",
+			"lastPickedDateObject",
+			"getSelectedDayFormatted",
+			"flag_DayMarkedBeforeRepopulation",
+			"g_currentDateObject",
+			"g_jsDatePickDirectionality"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "example-full.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2402,
+								2402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mini_calendar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								684,
+								684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "calendar.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

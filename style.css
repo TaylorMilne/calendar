@@ -1,0 +1,6 @@
+.monthpickbox {position: absolute; width: 260px; height: 50px;}
+.monthpickbox div{ display: inline-block; position: relative;}
+
+.monthpickbox .forwardmonthbutton {overflow:hidden; cursor:pointer; position: absolute; top: 0px; right: 0px; background:url(img/yearForward_normal.gif) left top no-repeat; width: 20px; height: 30px;}
+.monthpickbox .backwardmonthbutton {overflow:hidden; cursor:pointer; position: absolute; top: 0px; left: 0px; background:url(img/yearBackward_normal.gif) left top no-repeat; width: 20px; height: 30px;}
+.monthpickbox .monthtitle {overflow: hidden; position: absolute; left: 32px; width: 200px; height: 30px; text-align: center;}
